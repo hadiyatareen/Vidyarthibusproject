@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Driver Control Panel"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Bus Route:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <Spinner
+        android:id="@+id/busSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:minHeight="48dp"
+        android:spinnerMode="dialog"
+        android:background="@android:drawable/btn_dropdown"
+        android:padding="12dp"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Crowd Status:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btnEmpty"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Empty 🟢"
+        android:textSize="18sp"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btnModerate"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Moderate 🟡"
+        android:textSize="18sp"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btnFull"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Full 🔴"
+        android:textSize="18sp" />
+
+</LinearLayout>
